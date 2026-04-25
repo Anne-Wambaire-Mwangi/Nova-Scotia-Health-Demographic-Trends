@@ -10,10 +10,14 @@ NOVA SCOTIA HEALTH DEMOGRAPHICS TRENDS
 * 🎯 Project Goals
   
   Population Trends: Understand how age distribution is changing and its impact on healthcare demand
+
   Regional Health Risk: Identify regions with high chronic disease prevalence
+
   Socioeconomic Impact: Analyze how income and education influence health outcomes
   System Performance: Compare hospitalization rates with national benchmarks
+
   Demand Drivers: Identify key population groups driving healthcare demand
+
   Decision Support: Provide insights for healthcare planning and policy decisions
 
 
