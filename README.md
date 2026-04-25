@@ -98,7 +98,7 @@ NOVA SCOTIA HEALTH DEMOGRAPHICS TRENDS
 
    * Okoro, Chukwuma _ SQL/ETL Analyst
 
-   * Okafor, Michael _ QA/Docs
+   * Vacation/All team _ QA/Docs
 
 
 📬 Contact
