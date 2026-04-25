@@ -54,7 +54,7 @@ NOVA SCOTIA HEALTH DEMOGRAPHICS TRENDS
         Others/
       Data/
         raw/
-        cleaned/
+        clean/
       Scripts/
         python/
         sql/
