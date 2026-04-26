@@ -24,7 +24,7 @@ NOVA SCOTIA HEALTH DEMOGRAPHICS TRENDS
 
 📁 Repository
 
-   [https://github.com/Anne-Wambaire-Mwangi/Nova-Scotia-Health-Demographic-Trends.git](https://anne-wambaire-mwangi.github.io/Nova-Scotia-Health-Demographic-Trends/)
+   [Nova-Scotia & Health-Population-Analytics](https://anne-wambaire-mwangi.github.io/Nova-Scotia-Health-Demographic-Trends/)
 
 
 📊Tools & Technologies
