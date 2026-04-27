@@ -94,7 +94,7 @@ NOVA SCOTIA HEALTH DEMOGRAPHICS TRENDS
   
    * Mwangi, Ann  _    Data Lead    https://github.com/Anne-Wambaire-Mwangi   
 
-   * Ayide, Juliane _  Reporting Lead  
+   * Ayide, Juliana _  Reporting Lead  
 
    * Okoro, Chukwuma _ SQL/ETL Analyst   https://github.com/Sirchux
 
@@ -106,7 +106,8 @@ NOVA SCOTIA HEALTH DEMOGRAPHICS TRENDS
   For questions or collaboration, please reach out via GitHub.
   
   
-  ..
+  _Test contribution by Juliana Ayide
+``
 
 
 
