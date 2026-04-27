@@ -106,5 +106,4 @@ NOVA SCOTIA HEALTH DEMOGRAPHICS TRENDS
   For questions or collaboration, please reach out via GitHub.
 
 
-  _Test contribution by Chukwuma_
-``
+
