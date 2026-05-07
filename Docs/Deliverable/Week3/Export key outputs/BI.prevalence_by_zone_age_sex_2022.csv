@@ -1,0 +1,169 @@
+zone_name,disease,age_group,sex,prevalence,population,rate_per_1000
+Central,Diabetes,20 to 29,F,345,35574,9.7
+Central,Diabetes,20 to 29,M,329,35843,9.2
+Central,Diabetes,30 to 39,F,825,44340,18.6
+Central,Diabetes,30 to 39,M,893,43045,20.7
+Central,Diabetes,40 to 49,F,1769,38687,45.7
+Central,Diabetes,40 to 49,M,2053,37256,55.1
+Central,Diabetes,50 to 59,F,3615,37169,97.3
+Central,Diabetes,50 to 59,M,4444,35942,123.6
+Central,Diabetes,60 to 69,F,5619,35323,159.1
+Central,Diabetes,60 to 69,M,7246,33468,216.5
+Central,Diabetes,70 to 79,F,5293,23520,225.0
+Central,Diabetes,70 to 79,M,6433,20670,311.2
+Central,Diabetes,80 +,F,3363,13449,250.1
+Central,Diabetes,80 +,M,3225,9460,340.9
+Central,Hypertension,20 to 29,F,227,35574,6.4
+Central,Hypertension,20 to 29,M,276,35843,7.7
+Central,Hypertension,30 to 39,F,1374,44340,31.0
+Central,Hypertension,30 to 39,M,1731,43045,40.2
+Central,Hypertension,40 to 49,F,4114,38687,106.3
+Central,Hypertension,40 to 49,M,4588,37256,123.1
+Central,Hypertension,50 to 59,F,9065,37169,243.9
+Central,Hypertension,50 to 59,M,9866,35942,274.5
+Central,Hypertension,60 to 69,F,14951,35323,423.3
+Central,Hypertension,60 to 69,M,15875,33468,474.3
+Central,Hypertension,70 to 79,F,15080,23520,641.2
+Central,Hypertension,70 to 79,M,13855,20670,670.3
+Central,Hypertension,80 +,F,10953,13449,814.4
+Central,Hypertension,80 +,M,7537,9460,796.7
+Central,IHD,20 to 29,F,13,35574,0.4
+Central,IHD,20 to 29,M,16,35843,0.4
+Central,IHD,30 to 39,F,117,44340,2.6
+Central,IHD,30 to 39,M,146,43045,3.4
+Central,IHD,40 to 49,F,351,38687,9.1
+Central,IHD,40 to 49,M,592,37256,15.9
+Central,IHD,50 to 59,F,990,37169,26.6
+Central,IHD,50 to 59,M,1977,35942,55.0
+Central,IHD,60 to 69,F,2572,35323,72.8
+Central,IHD,60 to 69,M,4787,33468,143.0
+Central,IHD,70 to 79,F,3589,23520,152.6
+Central,IHD,70 to 79,M,5446,20670,263.5
+Central,IHD,80 +,F,3549,13449,263.9
+Central,IHD,80 +,M,3793,9460,401.0
+Eastern,Diabetes,20 to 29,F,175,10060,17.4
+Eastern,Diabetes,20 to 29,M,158,10631,14.9
+Eastern,Diabetes,30 to 39,F,378,10692,35.4
+Eastern,Diabetes,30 to 39,M,383,10972,34.9
+Eastern,Diabetes,40 to 49,F,855,10574,80.9
+Eastern,Diabetes,40 to 49,M,790,10559,74.8
+Eastern,Diabetes,50 to 59,F,1731,12631,137.0
+Eastern,Diabetes,50 to 59,M,1894,12334,153.6
+Eastern,Diabetes,60 to 69,F,2916,15412,189.2
+Eastern,Diabetes,60 to 69,M,3438,14624,235.1
+Eastern,Diabetes,70 to 79,F,3030,11288,268.4
+Eastern,Diabetes,70 to 79,M,3609,10650,338.9
+Eastern,Diabetes,80 +,F,2068,6994,295.7
+Eastern,Diabetes,80 +,M,1760,4954,355.3
+Eastern,Hypertension,20 to 29,F,110,10060,10.9
+Eastern,Hypertension,20 to 29,M,168,10631,15.8
+Eastern,Hypertension,30 to 39,F,640,10692,59.9
+Eastern,Hypertension,30 to 39,M,712,10972,64.9
+Eastern,Hypertension,40 to 49,F,1820,10574,172.1
+Eastern,Hypertension,40 to 49,M,1770,10559,167.6
+Eastern,Hypertension,50 to 59,F,4236,12631,335.4
+Eastern,Hypertension,50 to 59,M,4365,12334,353.9
+Eastern,Hypertension,60 to 69,F,7952,15412,516.0
+Eastern,Hypertension,60 to 69,M,7919,14624,541.5
+Eastern,Hypertension,70 to 79,F,8061,11288,714.1
+Eastern,Hypertension,70 to 79,M,7697,10650,722.7
+Eastern,Hypertension,80 +,F,5976,6994,854.4
+Eastern,Hypertension,80 +,M,4053,4954,818.1
+Eastern,IHD,20 to 29,F,4,10060,0.4
+Eastern,IHD,20 to 29,M,7,10631,0.7
+Eastern,IHD,30 to 39,F,41,10692,3.8
+Eastern,IHD,30 to 39,M,61,10972,5.6
+Eastern,IHD,40 to 49,F,155,10574,14.7
+Eastern,IHD,40 to 49,M,235,10559,22.3
+Eastern,IHD,50 to 59,F,523,12631,41.4
+Eastern,IHD,50 to 59,M,871,12334,70.6
+Eastern,IHD,60 to 69,F,1397,15412,90.6
+Eastern,IHD,60 to 69,M,2430,14624,166.2
+Eastern,IHD,70 to 79,F,1859,11288,164.7
+Eastern,IHD,70 to 79,M,3178,10650,298.4
+Eastern,IHD,80 +,F,2004,6994,286.5
+Eastern,IHD,80 +,M,2065,4954,416.8
+Northern,Diabetes,20 to 29,F,114,8746,13.0
+Northern,Diabetes,20 to 29,M,118,9319,12.7
+Northern,Diabetes,30 to 39,F,249,9997,24.9
+Northern,Diabetes,30 to 39,M,292,10095,28.9
+Northern,Diabetes,40 to 49,F,674,10619,63.5
+Northern,Diabetes,40 to 49,M,680,10200,66.7
+Northern,Diabetes,50 to 59,F,1531,12503,122.5
+Northern,Diabetes,50 to 59,M,1779,12340,144.2
+Northern,Diabetes,60 to 69,F,2467,13668,180.5
+Northern,Diabetes,60 to 69,M,3033,13019,233.0
+Northern,Diabetes,70 to 79,F,2393,9763,245.1
+Northern,Diabetes,70 to 79,M,2934,9133,321.3
+Northern,Diabetes,80 +,F,1537,5899,260.6
+Northern,Diabetes,80 +,M,1441,4271,337.4
+Northern,Hypertension,20 to 29,F,86,8746,9.8
+Northern,Hypertension,20 to 29,M,115,9319,12.3
+Northern,Hypertension,30 to 39,F,499,9997,49.9
+Northern,Hypertension,30 to 39,M,590,10095,58.4
+Northern,Hypertension,40 to 49,F,1601,10619,150.8
+Northern,Hypertension,40 to 49,M,1486,10200,145.7
+Northern,Hypertension,50 to 59,F,3733,12503,298.6
+Northern,Hypertension,50 to 59,M,4024,12340,326.1
+Northern,Hypertension,60 to 69,F,6572,13668,480.8
+Northern,Hypertension,60 to 69,M,6830,13019,524.6
+Northern,Hypertension,70 to 79,F,6704,9763,686.7
+Northern,Hypertension,70 to 79,M,6404,9133,701.2
+Northern,Hypertension,80 +,F,4990,5899,845.9
+Northern,Hypertension,80 +,M,3469,4271,812.2
+Northern,IHD,20 to 29,F,6,8746,0.7
+Northern,IHD,20 to 29,M,4,9319,0.4
+Northern,IHD,30 to 39,F,43,9997,4.3
+Northern,IHD,30 to 39,M,63,10095,6.2
+Northern,IHD,40 to 49,F,134,10619,12.6
+Northern,IHD,40 to 49,M,224,10200,22.0
+Northern,IHD,50 to 59,F,484,12503,38.7
+Northern,IHD,50 to 59,M,858,12340,69.5
+Northern,IHD,60 to 69,F,1225,13668,89.6
+Northern,IHD,60 to 69,M,2121,13019,162.9
+Northern,IHD,70 to 79,F,1700,9763,174.1
+Northern,IHD,70 to 79,M,2619,9133,286.8
+Northern,IHD,80 +,F,1732,5899,293.6
+Northern,IHD,80 +,M,1759,4271,411.8
+Western,Diabetes,20 to 29,F,136,11085,12.3
+Western,Diabetes,20 to 29,M,154,11574,13.3
+Western,Diabetes,30 to 39,F,316,13021,24.3
+Western,Diabetes,30 to 39,M,296,12653,23.4
+Western,Diabetes,40 to 49,F,827,13347,62.0
+Western,Diabetes,40 to 49,M,833,12816,65.0
+Western,Diabetes,50 to 59,F,1883,16888,111.5
+Western,Diabetes,50 to 59,M,2322,16264,142.8
+Western,Diabetes,60 to 69,F,3462,19986,173.2
+Western,Diabetes,60 to 69,M,4202,18973,221.5
+Western,Diabetes,70 to 79,F,3597,14508,247.9
+Western,Diabetes,70 to 79,M,4352,13598,320.0
+Western,Diabetes,80 +,F,2522,8857,284.7
+Western,Diabetes,80 +,M,2249,6462,348.0
+Western,Hypertension,20 to 29,F,100,11085,9.0
+Western,Hypertension,20 to 29,M,102,11574,8.8
+Western,Hypertension,30 to 39,F,546,13021,41.9
+Western,Hypertension,30 to 39,M,596,12653,47.1
+Western,Hypertension,40 to 49,F,1798,13347,134.7
+Western,Hypertension,40 to 49,M,1796,12816,140.1
+Western,Hypertension,50 to 59,F,4570,16888,270.6
+Western,Hypertension,50 to 59,M,5014,16264,308.3
+Western,Hypertension,60 to 69,F,8544,19986,427.5
+Western,Hypertension,60 to 69,M,9088,18973,479.0
+Western,Hypertension,70 to 79,F,9407,14508,648.4
+Western,Hypertension,70 to 79,M,9071,13598,667.1
+Western,Hypertension,80 +,F,7184,8857,811.1
+Western,Hypertension,80 +,M,4987,6462,771.7
+Western,IHD,20 to 29,F,6,11085,0.5
+Western,IHD,20 to 29,M,7,11574,0.6
+Western,IHD,30 to 39,F,42,13021,3.2
+Western,IHD,30 to 39,M,51,12653,4.0
+Western,IHD,40 to 49,F,145,13347,10.9
+Western,IHD,40 to 49,M,260,12816,20.3
+Western,IHD,50 to 59,F,475,16888,28.1
+Western,IHD,50 to 59,M,1010,16264,62.1
+Western,IHD,60 to 69,F,1305,19986,65.3
+Western,IHD,60 to 69,M,2622,18973,138.2
+Western,IHD,70 to 79,F,1952,14508,134.5
+Western,IHD,70 to 79,M,3581,13598,263.3
+Western,IHD,80 +,F,2303,8857,260.0
+Western,IHD,80 +,M,2459,6462,380.5

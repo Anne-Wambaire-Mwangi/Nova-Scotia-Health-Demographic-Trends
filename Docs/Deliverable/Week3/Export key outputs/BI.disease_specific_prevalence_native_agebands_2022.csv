@@ -1,0 +1,25 @@
+zone_name,age_group,prevalence,population,rate_per_1000
+Central,20 to 39,117,158802,0.7
+Central,40 to 49,365,75943,4.8
+Central,50 to 59,1200,73111,16.4
+Central,60 to 69,2686,68791,39.0
+Central,70 to 79,2974,44190,67.3
+Central,80 +,2265,22909,98.9
+Eastern,20 to 39,58,42355,1.4
+Eastern,40 to 49,213,21133,10.1
+Eastern,50 to 59,716,24965,28.7
+Eastern,60 to 69,1731,30036,57.6
+Eastern,70 to 79,1993,21938,90.8
+Eastern,80 +,1509,11948,126.3
+Northern,20 to 39,60,38157,1.6
+Northern,40 to 49,167,20819,8.0
+Northern,50 to 59,702,24843,28.3
+Northern,60 to 69,1556,26687,58.3
+Northern,70 to 79,1743,18896,92.2
+Northern,80 +,1337,10170,131.5
+Western,20 to 39,55,48333,1.1
+Western,40 to 49,229,26163,8.8
+Western,50 to 59,772,33152,23.3
+Western,60 to 69,1926,38959,49.4
+Western,70 to 79,2244,28106,79.8
+Western,80 +,1745,15319,113.9
