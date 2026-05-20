@@ -198,7 +198,7 @@ https://open.canada.ca/data/en/datase
 *********
 📁 GitHub Page Website
 
-   [Nova-Scotia & Health-Population-Analytics](https://anne-wambaire-mwangi.github.io/Nova-Scotia-Health-Demographic-Trends/)
+   [Dashboard](https://anne-wambaire-mwangi.github.io/Nova-Scotia-Health-Demographic-Trends/)
 
 
 📬 Contact
