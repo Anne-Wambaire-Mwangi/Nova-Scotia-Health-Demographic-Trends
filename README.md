@@ -199,7 +199,7 @@ Week 5: Final report & presentation
 
 *********
 
-📁 GitHub Page Website
+📁 Findings
 
    [Ns Hypertension & Associated Conditions Dashboard](https://anne-wambaire-mwangi.github.io/Nova-Scotia-Health-Demographic-Trends/)
 
