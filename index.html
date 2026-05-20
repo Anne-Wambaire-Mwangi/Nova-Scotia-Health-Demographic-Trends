@@ -123,9 +123,7 @@
     flex-wrap: wrap; justify-content: center;
     animation: fadeUp 0.8s 0.6s ease-out both;
   }
-  .hero .meta-item {
-    text-align: center;
-  }
+  .hero .meta-item { text-align: center; }
   .hero .meta-item .label {
     font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em;
     color: var(--text-secondary); margin-bottom: 0.2rem;
@@ -243,7 +241,7 @@
     position: relative;
   }
   .narrative::before {
-    content: '"'; position: absolute; top: 0.5rem; left: 1rem;
+    content: '\201C'; position: absolute; top: 0.5rem; left: 1rem;
     font-family: 'Playfair Display', serif; font-size: 4rem;
     color: rgba(232,168,56,0.15); line-height: 1;
   }
@@ -432,7 +430,7 @@
 
 <!-- HERO -->
 <header class="hero">
-  <div class="hero-badge">INFT 5028 Capstone &nbsp;·&nbsp; NSCC IT Campus &nbsp;·&nbsp; Team Alpha</div>
+  <div class="hero-badge">INFT 5028 Capstone &nbsp;&middot;&nbsp; NSCC IT Campus &nbsp;&middot;&nbsp; Team Alpha</div>
   <h1>NS Health & <br><span class="accent">Population Analytics</span></h1>
   <div class="subtitle">Hypertension & Associated Conditions</div>
   <p class="desc">An integrated BI solution surfacing regional health patterns, demographic shifts, and forecasted healthcare demand across Nova Scotia's four health zones.</p>
@@ -486,7 +484,6 @@
     </div>
   </div>
 
-  <!-- Prevalence bar chart -->
   <div class="chart-row two fade-in">
     <div class="chart-card">
       <h3>NS Chronic Disease Prevalence (2022) <span class="tag">per 1,000</span></h3>
@@ -544,29 +541,49 @@
 <section id="demographics">
   <div class="section-label fade-in">03 — Age & Gender</div>
   <h2 class="section-title fade-in">Who Is Most at Risk?</h2>
-  <p class="section-desc fade-in">Prevalence data by age band and gender reveal a steep escalation curve — and the critical window for early intervention.</p>
+  <p class="section-desc fade-in">Prevalence data by age band and gender across all six chronic conditions reveal steep escalation curves — and the critical windows for early intervention.</p>
 
+  <!-- Row 1: Hypertension + Diabetes -->
   <div class="chart-row two fade-in">
     <div class="chart-card">
-      <h3>COPD Prevalence by Age & Gender <span class="tag">per 1,000</span></h3>
-      <div class="chart-wrapper"><canvas id="chartCOPD"></canvas></div>
+      <h3>Hypertension by Age & Gender <span class="tag">per 1,000</span></h3>
+      <div class="chart-wrapper" style="height:300px"><canvas id="chartHyperAge"></canvas></div>
     </div>
     <div class="chart-card">
-      <h3>AMI Prevalence by Age Cohort <span class="tag">per 1,000</span></h3>
-      <div class="chart-wrapper"><canvas id="chartAMI"></canvas></div>
+      <h3>Diabetes by Age & Gender <span class="tag">per 1,000</span></h3>
+      <div class="chart-wrapper" style="height:300px"><canvas id="chartDiabetes"></canvas></div>
     </div>
   </div>
 
-  <div class="chart-row full fade-in">
+  <!-- Row 2: COPD + Asthma -->
+  <div class="chart-row two fade-in">
     <div class="chart-card">
-      <h3>Hypertension Prevalence by Age & Gender <span class="tag">per 1,000</span></h3>
-      <div class="chart-wrapper" style="height:340px"><canvas id="chartHyperAge"></canvas></div>
+      <h3>COPD by Age & Gender <span class="tag">per 1,000</span></h3>
+      <div class="chart-wrapper" style="height:300px"><canvas id="chartCOPD"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>Asthma by Age & Gender <span class="tag">per 1,000</span></h3>
+      <div class="chart-wrapper" style="height:300px"><canvas id="chartAsthma"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Row 3: Ischemic Heart Disease + AMI -->
+  <div class="chart-row two fade-in">
+    <div class="chart-card">
+      <h3>Ischemic Heart Disease by Age & Gender <span class="tag">per 1,000</span></h3>
+      <div class="chart-wrapper" style="height:300px"><canvas id="chartIHD"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>AMI (Acute Myocardial Infarction) by Age <span class="tag">per 1,000</span></h3>
+      <div class="chart-wrapper" style="height:300px"><canvas id="chartAMI"></canvas></div>
     </div>
   </div>
 
   <div class="narrative fade-in">
-    <p>The age-prevalence curve for hypertension is not linear — it is <strong>exponential</strong>. Prevalence nearly doubles between each decade after age 40, peaking above 1,500 per 1,000 in the 80+ cohort. Males show consistently higher rates across all age bands, but the gap narrows significantly after age 70.</p>
-    <p>For AMI, the 80+ cohort carries a prevalence of <em>113.6 per 1,000</em> — roughly 15× the rate of the 50–59 group. This tells us that the cardiovascular consequences of unmanaged hypertension are compounding silently for decades before manifesting as acute events.</p>
+    <p>The age-prevalence curve for hypertension is not linear — it is <strong>exponential</strong>. Prevalence climbs from under 10 per 1,000 in the 20–29 cohort to over 800 per 1,000 by age 80+. Males show consistently higher rates across all age bands, but the gap narrows after age 70.</p>
+    <p>Diabetes and ischemic heart disease follow a similar escalation pattern, with males carrying higher burden — particularly in the 60+ age bands where diabetes reaches 345 per 1,000 (M) and ischemic heart disease hits 400 per 1,000 (M) at 80+.</p>
+    <p>Asthma is the outlier: it is the only condition where <em>females carry a higher burden than males</em> across every age band, and prevalence actually <strong>decreases</strong> with age rather than increasing — peaking in younger cohorts (20–29) rather than older ones.</p>
+    <p>For AMI, the 80+ cohort carries a prevalence of <em>113.6 per 1,000</em> — roughly 15× the rate of the 50–59 group. The cardiovascular consequences of unmanaged hypertension are compounding silently for decades before manifesting as acute events.</p>
   </div>
 </section>
 
@@ -597,21 +614,21 @@
 
 <!-- ═══════════ STAKEHOLDER Q&A ═══════════ -->
 <section id="stakeholder">
-  <div class="section-label fade-in">Anticipated Stakeholder Considerations</div>
-  <h2 class="section-title fade-in">What Leadership Needs to Know</h2>
+  <div class="section-label fade-in">05 — What the Data Means for Decision-Makers</div>
+  <h2 class="section-title fade-in">Anticipated Stakeholder Considerations</h2>
   <p class="section-desc fade-in">Before the questions are asked — here is what the data tells us about strategic value, operational impact, and where to go from here.</p>
 
   <div class="qa-section fade-in">
 
     <div class="qa-item open">
-      <div class="qa-question">Can leadership act on this analysis with confidence?<span class="arrow">▾</span></div>
+      <div class="qa-question">Can leadership act on this analysis with confidence?<span class="arrow">&#9662;</span></div>
       <div class="qa-answer">
         <p>Absolutely. This analysis moves beyond provincial averages to expose <strong>regional disparities</strong> — identifying where chronic disease burden is highest, where future healthcare strain is likely to increase, and where preventive interventions may deliver the greatest long-term impact. It equips leadership to prioritize resources strategically rather than uniformly.</p>
       </div>
     </div>
 
     <div class="qa-item">
-      <div class="qa-question">What is the business value of these findings?<span class="arrow">▾</span></div>
+      <div class="qa-question">What is the business value of these findings?<span class="arrow">&#9662;</span></div>
       <div class="qa-answer">
         <p>The value lies in <strong>prevention and resource optimization</strong>. Hypertension is one of the earliest and most manageable risk factors. If identified and controlled earlier, the healthcare system can potentially reduce avoidable hospitalizations, cardiovascular emergencies, long-term treatment costs, and strain on acute care services.</p>
         <p>Earlier intervention upstream reduces significantly higher downstream healthcare costs. Every avoided AMI admission, every heart failure case that never progresses to acute care — that is measurable cost avoidance and better patient outcomes.</p>
@@ -619,14 +636,22 @@
     </div>
 
     <div class="qa-item">
-      <div class="qa-question">What specific actions do the findings support?<span class="arrow">▾</span></div>
+      <div class="qa-question">What specific actions do the findings support?<span class="arrow">&#9662;</span></div>
       <div class="qa-answer">
         <p>The data points toward targeted intervention in higher-burden regions — especially the Eastern Zone. Possible actions include: expanding hypertension screening programs, improving access to primary care, increasing community awareness campaigns, strengthening follow-up and continuity of care, and <strong>allocating more preventive resources to high-burden regions</strong> where disease is progressing furthest before diagnosis.</p>
       </div>
     </div>
 
     <div class="qa-item">
-      <div class="qa-question">Can front-line and operational teams use these insights?<span class="arrow">▾</span></div>
+      <div class="qa-question">Is the story clear enough for a boardroom audience?<span class="arrow">&#9662;</span></div>
+      <div class="qa-answer">
+        <p>Yes — because it directly answers the four questions a boardroom audience needs answered: <strong>What is happening? Why does it matter? Where is the risk? What should we do next?</strong></p>
+        <p>The strongest element is the contrast between the Eastern and Central Zones. It creates a compelling narrative around healthcare access and prevention that resonates beyond the data itself — it reframes hypertension from a clinical metric to a <strong>system-level strategic indicator</strong>.</p>
+      </div>
+    </div>
+
+    <div class="qa-item">
+      <div class="qa-question">Can front-line and operational teams use these insights?<span class="arrow">&#9662;</span></div>
       <div class="qa-answer">
         <p>Directly. Primary care teams can increase blood pressure screening. Community health teams can target awareness initiatives in high-burden zones. Regional planners can prioritize outreach programs. Hospital leadership can prepare for future cardiovascular burden trends.</p>
         <p>The insights translate from dashboard to action without a translation layer — every finding has a corresponding operational lever.</p>
@@ -634,14 +659,14 @@
     </div>
 
     <div class="qa-item">
-      <div class="qa-question">Does this reflect how the healthcare system actually operates?<span class="arrow">▾</span></div>
+      <div class="qa-question">Does this reflect how the healthcare system actually operates?<span class="arrow">&#9662;</span></div>
       <div class="qa-answer">
-        <p>Yes — because chronic disease rarely exists in isolation. What the dashboard reflects is the real-world progression healthcare systems see every day: <strong>unmanaged risk factors eventually become higher-acuity conditions</strong>, and regional differences in prevention and access translate directly into different health outcomes. The hypertension → cardiovascular disease pipeline is not theoretical — it is the daily reality of hospital admissions across the province.</p>
+        <p>Yes — because chronic disease rarely exists in isolation. What the dashboard reflects is the real-world progression healthcare systems see every day: <strong>unmanaged risk factors eventually become higher-acuity conditions</strong>, and regional differences in prevention and access translate directly into different health outcomes. The hypertension to cardiovascular disease pipeline is not theoretical — it is the daily reality of hospital admissions across the province.</p>
       </div>
     </div>
 
     <div class="qa-item">
-      <div class="qa-question">What would make this analysis even more operationally valuable?<span class="arrow">▾</span></div>
+      <div class="qa-question">What would make this analysis even more operationally valuable?<span class="arrow">&#9662;</span></div>
       <div class="qa-answer">
         <p>To evolve from descriptive to predictive and strategic planning, additional data layers could include: hospitalization trends, emergency department utilization, mortality rates, <strong>primary care attachment rates</strong>, socioeconomic indicators, medication adherence data, and multi-year trend analysis.</p>
         <p>One immediate improvement opportunity: adding trend data over multiple years to show whether prevalence is improving or worsening over time — transforming a snapshot into a trajectory.</p>
@@ -679,7 +704,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="team">Thank You — Team Alpha</div>
-  <div class="course">INFT 5028 Capstone &nbsp;·&nbsp; NSCC IT Campus &nbsp;·&nbsp; Instructor: Patrick Dolinger</div>
+  <div class="course">INFT 5028 Capstone &nbsp;&middot;&nbsp; NSCC IT Campus &nbsp;&middot;&nbsp; Instructor: Patrick Dolinger</div>
 </footer>
 
 <script>
@@ -701,7 +726,6 @@ Chart.defaults.plugins.tooltip.borderWidth = 1;
 const gridColor = 'rgba(74,144,217,0.08)';
 const gridOpts = { color: gridColor, drawBorder: false };
 
-// Colors
 const C = {
   coral: '#D4534A', coralL: '#E8716A',
   gold: '#E8A838', goldL: '#F5C563',
@@ -711,6 +735,34 @@ const C = {
   eastern: '#D4534A', northern: '#8B9DC3',
   western: '#5B8C6F', central: '#E8A838',
 };
+
+const ageBands = ['20–29','30–39','40–49','50–59','60–69','70–79','80+'];
+
+// Helper to create a grouped bar chart (Male + Female)
+function createAgeGenderChart(canvasId, femaleData, maleData, opts = {}) {
+  return new Chart(document.getElementById(canvasId), {
+    type: 'bar',
+    data: {
+      labels: ageBands,
+      datasets: [
+        { label: 'Female', data: femaleData, backgroundColor: C.goldL, borderRadius: 4 },
+        { label: 'Male', data: maleData, backgroundColor: C.ice, borderRadius: 4 },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top' },
+        tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y} per 1,000` } }
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: { grid: gridOpts, beginAtZero: true, ticks: { callback: v => v.toLocaleString() } }
+      },
+      ...opts
+    }
+  });
+}
 
 // ─── 1. Provincial Prevalence ───
 new Chart(document.getElementById('chartPrevalence'), {
@@ -728,7 +780,7 @@ new Chart(document.getElementById('chartPrevalence'), {
     plugins: { legend: { display: false } },
     scales: {
       x: { grid: { display: false } },
-      y: { grid: gridOpts, ticks: { callback: v => v } }
+      y: { grid: gridOpts }
     }
   }
 });
@@ -748,11 +800,7 @@ new Chart(document.getElementById('chartBurdenZone'), {
     responsive: true, maintainAspectRatio: true,
     plugins: {
       legend: { display: false },
-      tooltip: {
-        callbacks: {
-          label: ctx => `${ctx.parsed.y.toFixed(1)} per 1,000`
-        }
-      }
+      tooltip: { callbacks: { label: ctx => ctx.parsed.y.toFixed(1) + ' per 1,000' } }
     },
     scales: {
       x: { grid: { display: false } },
@@ -790,7 +838,7 @@ const zoneChart = new Chart(document.getElementById('chartZoneDetail'), {
     responsive: true, maintainAspectRatio: false,
     plugins: {
       legend: { position: 'top' },
-      tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y} per 1,000` } }
+      tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y + ' per 1,000' } }
     },
     scales: {
       x: { grid: { display: false } },
@@ -803,33 +851,61 @@ document.getElementById('zoneToggle').addEventListener('click', e => {
   if (!e.target.classList.contains('zone-btn')) return;
   document.querySelectorAll('.zone-btn').forEach(b => b.classList.remove('active'));
   e.target.classList.add('active');
-  const z = e.target.dataset.zone;
-  const d = buildZoneDatasets(z);
+  const d = buildZoneDatasets(e.target.dataset.zone);
   zoneChart.data = d;
   zoneChart.update('none');
 });
 
-// ─── 4. COPD by Age & Gender ───
+// ═══════════ DEMOGRAPHICS CHARTS (exact data from Power BI) ═══════════
+
+// Hypertension — F & M by age band
+createAgeGenderChart('chartHyperAge',
+  [7.99, 39.19, 127.45, 272.81, 450.52, 664.40, 826.81],  // Female
+  [9.81, 47.27, 136.10, 302.67, 495.88, 685.04, 797.15]   // Male
+);
+
+// Diabetes — F & M by age band
+createAgeGenderChart('chartDiabetes',
+  [11.76, 22.65, 56.33, 110.62, 171.40, 242.27, 269.61],  // Female
+  [11.27, 24.28, 61.50, 135.78, 223.75, 320.59, 344.97]   // Male
+);
+
+// COPD — F & M by age band (own age groups: 35-44 through 75+)
 new Chart(document.getElementById('chartCOPD'), {
   type: 'bar',
   data: {
-    labels: ['75','65–74','55–64','45–54','35–44'],
+    labels: ['35–44','45–54','55–64','65–74','75+'],
     datasets: [
-      { label: 'Male', data: [285.58, 200.72, 117.50, 42.57, 6.39], backgroundColor: C.ice, borderRadius: 4 },
-      { label: 'Female', data: [258.48, 197.29, 128.25, 50.09, 8.62], backgroundColor: C.goldL, borderRadius: 4 },
+      { label: 'Female', data: [8.62, 50.09, 128.25, 197.29, 258.48], backgroundColor: C.goldL, borderRadius: 4 },
+      { label: 'Male', data: [6.39, 42.57, 117.50, 200.72, 285.58], backgroundColor: C.ice, borderRadius: 4 },
     ]
   },
   options: {
-    responsive: true,
-    plugins: { legend: { position: 'top' } },
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'top' },
+      tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y + ' per 1,000' } }
+    },
     scales: {
-      x: { grid: { display: false }, stacked: true },
-      y: { grid: gridOpts, stacked: true, beginAtZero: true }
+      x: { grid: { display: false } },
+      y: { grid: gridOpts, beginAtZero: true }
     }
   }
 });
 
-// ─── 5. AMI by Age ───
+// Asthma — F & M by age band
+createAgeGenderChart('chartAsthma',
+  [157.63, 141.81, 128.40, 123.92, 121.41, 127.41, 102.36],  // Female
+  [195.14, 144.75, 80.13, 69.97, 69.24, 70.86, 67.88]        // Male
+);
+
+// Ischemic Heart Disease — F & M by age band
+createAgeGenderChart('chartIHD',
+  [0.44, 3.11, 10.72, 31.22, 77.01, 154.03, 272.39],  // Female
+  [0.50, 4.18, 18.51, 61.34, 149.34, 274.26, 400.68]   // Male
+);
+
+// AMI — horizontal bar (combined, not split by gender)
 new Chart(document.getElementById('chartAMI'), {
   type: 'bar',
   data: {
@@ -837,38 +913,18 @@ new Chart(document.getElementById('chartAMI'), {
     datasets: [{
       data: [113.61, 79.15, 48.03, 21.72, 6.76, 1.01],
       backgroundColor: C.ice,
-      borderRadius: 6, borderSkipped: false, barThickness: 36,
+      borderRadius: 6, borderSkipped: false, barThickness: 32,
     }]
   },
   options: {
-    indexAxis: 'y', responsive: true,
+    indexAxis: 'y', responsive: true, maintainAspectRatio: false,
     plugins: {
       legend: { display: false },
-      tooltip: { callbacks: { label: ctx => `${ctx.parsed.x} per 1,000` } }
+      tooltip: { callbacks: { label: ctx => ctx.parsed.x + ' per 1,000' } }
     },
     scales: {
       x: { grid: gridOpts, beginAtZero: true },
       y: { grid: { display: false } }
-    }
-  }
-});
-
-// ─── 6. Hypertension by Age & Gender ───
-new Chart(document.getElementById('chartHyperAge'), {
-  type: 'bar',
-  data: {
-    labels: ['20–29','30–39','40–49','50–59','60–69','70–79','80+'],
-    datasets: [
-      { label: 'Female', data: [15, 45, 150, 350, 620, 950, 1400], backgroundColor: C.goldL, borderRadius: 4 },
-      { label: 'Male', data: [20, 60, 200, 420, 750, 1100, 1550], backgroundColor: C.ice, borderRadius: 4 },
-    ]
-  },
-  options: {
-    responsive: true, maintainAspectRatio: false,
-    plugins: { legend: { position: 'top' } },
-    scales: {
-      x: { grid: { display: false } },
-      y: { grid: gridOpts, beginAtZero: true, ticks: { callback: v => v.toLocaleString() } }
     }
   }
 });
@@ -878,7 +934,6 @@ document.querySelectorAll('.qa-question').forEach(q => {
   q.addEventListener('click', () => {
     const item = q.parentElement;
     const wasOpen = item.classList.contains('open');
-    // close all
     document.querySelectorAll('.qa-item').forEach(i => i.classList.remove('open'));
     if (!wasOpen) item.classList.add('open');
   });
