@@ -198,7 +198,7 @@ https://open.canada.ca/data/en/datase
 *********
 📁 GitHub Page Website
 
-   [Dashboard](https://anne-wambaire-mwangi.github.io/Nova-Scotia-Health-Demographic-Trends/)
+   [Ns Hypertension & Associated Conditions Dashboard](https://anne-wambaire-mwangi.github.io/Nova-Scotia-Health-Demographic-Trends/)
 
 
 📬 Contact
